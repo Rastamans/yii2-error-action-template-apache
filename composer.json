@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "rastamans\\skeleton\\": "./src"
+            "rastamans\\apache_error\\": "./src"
         }
     },
     "require": {
@@ -23,7 +23,7 @@
     },
     "extra": {
 		"yii-install-commands": [
-			"rastamans\\apache_error\\commands\\hello \"I am an extension!\""
+			"rastamans\\apache_error\\commands\\error \"I am an extension!\""
 		]
 	}
 }
