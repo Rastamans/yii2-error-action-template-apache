@@ -1,0 +1,29 @@
+{
+    "name": "rastamans/yii2-error-action-template-apache",
+    "description": "Yii2 Extension Error Action Template Apache",
+    "keywords": ["yii2", "Apache", "Template", "error"],
+    "homepage": "https://github.com/Rastamans/yii2-error-action-template-apache.git",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rastamans",
+            "email": "mail@mail.com",
+            "homepage": "http://mail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "rastamans\\skeleton\\": "./src"
+        }
+    },
+    "require": {
+        "yiisoft/yii2-composer": "dev-master",
+        "yiisoft/yii2": "dev-master"
+    },
+    "extra": {
+		"yii-install-commands": [
+			"rastamans\\apache_error\\commands\\hello \"I am an extension!\""
+		]
+	}
+}
