@@ -23,7 +23,7 @@
     },
     "extra": {
 		"yii-install-commands": [
-			"rastamans\\apache_error\\commands\\error \"I am an extension!\""
+			"rastamans\\apache_error\\error \"I am an extension!\""
 		]
 	}
 }
